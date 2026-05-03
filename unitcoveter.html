@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="converter">
+    <h2>Unit Converter</h2>
+
+    <input type="number" id="inputValue" placeholder="Enter value">
+
+    <select id="conversionType">
+        <option value="cToF">Celsius to Fahrenheit</option>
+        <option value="fToC">Fahrenheit to Celsius</option>
+        <option value="kgToLb">Kilograms to Pounds</option>
+        <option value="mToKm">Meters to Kilometers</option>
+    </select>
+
+    <button onclick="convert()">Convert</button>
+
+    <h3 id="result"></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
